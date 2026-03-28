@@ -33,8 +33,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 <dependency>
-<groupId>com.mysql</groupId>
-<artifactId>mysql-connector-j</artifactId>
+<groupId>org.postgresql</groupId>
+<artifactId>postgresql</artifactId>
 <scope>runtime</scope>
 </dependency>
 <dependency>

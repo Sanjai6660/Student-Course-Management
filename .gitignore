@@ -1,0 +1,36 @@
+# Global overrides for Github
+.vscode/
+.idea/
+*.log
+*.txt
+*.ps1
+!CMakeLists.txt
+
+# Backend exceptions
+!backend/HELP.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.npm/
+frontend/.eslintcache
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend (Java/Spring Boot)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/build/
+backend/.gradle/
+backend/out/
